@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CyberFraudHelp — Report & Prevent Cybercrime</title>
+  <meta name="description" content="CyberFraudHelp is a support and awareness platform assisting victims of online fraud with reporting guidance, prevention tips, and safety resources." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🛡️</text></svg>">
+  <!-- Open Graph -->
+  <meta property="og:title" content="CyberFraudHelp — Report & Prevent Cybercrime" />
+  <meta property="og:description" content="Get step‑by‑step help if you’re a victim of cyber fraud. Learn how to report, recover, and stay safe online." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/0f172a/ffffff&text=CyberFraudHelp" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CyberFraudHelp — Report & Prevent Cybercrime" />
+  <meta name="twitter:description" content="Guidance, reporting links, and resources to fight online fraud." />
+  
+  <!-- Tailwind CSS CDN (JIT) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              200: '#bfdbfe',
+              300: '#93c5fd',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CyberFraudHelp",
+    "logo": "https://cyberfarudhelp.com/logo.png",
+    "sameAs": [
+    ]
+  }
+  </script>
+  <style>
+    /* Smooth scroll */
+    html { scroll-behavior: smooth; }
+    /* Focus ring for accessibility */
+    :focus-visible { outline: 3px solid #60a5fa; outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Skip link -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 bg-white rounded-lg shadow px-3 py-2">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="flex items-center gap-2 font-semibold text-slate-900" aria-label="CyberFraudHelp home">
+          <span class="text-2xl">🛡️</span>
+          <span>CyberFraudHelp</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6" aria-label="Primary">
+          <a class="hover:text-brand-700" href="#report">Report</a>
+          <a class="hover:text-brand-700" href="#steps">Steps</a>
+          <a class="hover:text-brand-700" href="#resources">Resources</a>
+          <a class="hover:text-brand-700" href="#faqs">FAQs</a>
+          <a class="hover:text-brand-700" href="#contact">Contact</a>
+        </nav>
+        <a href="#report" class="hidden md:inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white px-4 py-2 rounded-xl shadow" aria-label="Start report">
+          Start Report
+        </a>
+        <button id="menuBtn" class="md:hidden inline-flex items-center p-2 rounded-lg hover:bg-slate-100" aria-controls="mobileMenu" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t bg-white">
+      <nav class="max-w-7xl mx-auto px-4 py-3 grid gap-3" aria-label="Mobile">
+        <a class="hover:text-brand-700" href="#report">Report</a>
+        <a class="hover:text-brand-700" href="#steps">Steps</a>
+        <a class="hover:text-brand-700" href="#resources">Resources</a>
+        <a class="hover:text-brand-700" href="#faqs">FAQs</a>
+        <a class="hover:text-brand-700" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-brand-50 to-white"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900">
+            Report & Prevent <span class="text-brand-700">Cyber Fraud</span>
+          </h1>
+          <p class="mt-4 text-lg text-slate-700">
+            CyberFraudHelp is a support and awareness platform dedicated to assisting victims of online fraud, providing guidance on reporting, recovery, and staying safe in the digital world.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#report" class="inline-flex items-center bg-brand-600 hover:bg-brand-700 text-white px-5 py-3 rounded-xl shadow">
+              Start a Report
+            </a>
+            <a href="#resources" class="inline-flex items-center bg-white hover:bg-slate-50 border px-5 py-3 rounded-xl">
+              View Resources
+            </a>
+          </div>
+          <p class="mt-3 text-sm text-slate-500">If you are in immediate danger, contact your local police.</p>
+        </div>
+        <div class="md:justify-self-end">
+          <div class="bg-white border rounded-2xl shadow-xl p-6 md:p-8">
+            <h2 class="text-xl font-semibold">Quick Tips</h2>
+            <ul class="mt-4 space-y-3 list-disc list-inside text-slate-700">
+              <li>Stop all contact with the suspected scammer.</li>
+              <li>Do not share OTPs, passwords, or account details.</li>
+              <li>Change passwords and enable 2‑factor authentication.</li>
+              <li>Call your bank to freeze/secure accounts if money moved.</li>
+              <li>Collect evidence: screenshots, emails, transaction IDs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Report Form -->
+  <main id="main">
+    <section id="report" class="py-16 border-t bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold">File a Preliminary Report</h2>
+        <p class="mt-2 text-slate-600">We’ll guide you on what to do next. This does not replace filing a formal complaint with authorities.</p>
+
+        <form id="reportForm" class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6" novalidate>
+          <div class="grid gap-2">
+            <label for="name" class="font-medium">Full Name</label>
+            <input id="name" name="name" type="text" class="border rounded-xl px-4 py-3" placeholder="Your name" required />
+            <p class="text-sm text-red-600 hidden" data-error="name">Name is required.</p>
+          </div>
+          <div class="grid gap-2">
+            <label for="email" class="font-medium">Email</label>
+            <input id="email" name="email" type="email" class="border rounded-xl px-4 py-3" placeholder="you@example.com" required />
+            <p class="text-sm text-red-600 hidden" data-error="email">Enter a valid email.</p>
+          </div>
+          <div class="grid gap-2">
+            <label for="phone" class="font-medium">Phone</label>
+            <input id="phone" name="phone" type="tel" class="border rounded-xl px-4 py-3" placeholder="+91 98765 43210" />
+          </div>
+          <div class="grid gap-2">
+            <label for="category" class="font-medium">Fraud Type</label>
+            <select id="category" name="category" class="border rounded-xl px-4 py-3" required>
+              <option value="">Select one…</option>
+              <option>UPI/Banking Scam</option>
+              <option>Phishing Email/SMS</option>
+              <option>Social Media Impersonation</option>
+              <option>E‑commerce/Marketplace Fraud</option>
+              <option>Job Offer Scam</option>
+              <option>Investment/Crypto Scam</option>
+              <option>Other</option>
+            </select>
+            <p class="text-sm text-red-600 hidden" data-error="category">Please choose a category.</p>
+          </div>
+          <div class="md:col-span-2 grid gap-2">
+            <label for="details" class="font-medium">What happened?</label>
+            <textarea id="details" name="details" rows="5" class="border rounded-xl px-4 py-3" placeholder="Describe the incident, amounts, dates, usernames, links, etc." required></textarea>
+            <p class="text-sm text-red-600 hidden" data-error="details">Please provide details.</p>
+          </div>
+          <div class="grid gap-2">
+            <label for="amount" class="font-medium">Amount Lost (if any)</label>
+            <input id="amount" name="amount" type="number" step="0.01" class="border rounded-xl px-4 py-3" placeholder="e.g., 2500" />
+          </div>
+          <div class="grid gap-2">
+            <label for="when" class="font-medium">Date of Incident</label>
+            <input id="when" name="when" type="date" class="border rounded-xl px-4 py-3" />
+          </div>
+          <div class="md:col-span-2 flex items-start gap-3">
+            <input id="consent" type="checkbox" class="mt-1" required />
+            <label for="consent" class="text-sm text-slate-700">I agree that this is a preliminary report and consent to be contacted. I understand sensitive information should be shared only through official portals.</label>
+          </div>
+          <div class="md:col-span-2 flex gap-3">
+            <button type="submit" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-3 rounded-xl shadow">Submit</button>
+            <button type="button" id="saveDraft" class="bg-white border hover:bg-slate-50 px-5 py-3 rounded-xl">Save Draft</button>
+            <button type="reset" class="bg-white border hover:bg-slate-50 px-5 py-3 rounded-xl">Clear</button>
+          </div>
+          <p id="formMsg" class="md:col-span-2 text-sm"></p>
+        </form>
+
+        <div class="mt-6 text-sm text-slate-600">
+          <p><strong>India:</strong> You can file a formal complaint at the National Cyber Crime portal (cybercrime.gov.in) or contact your local police station. For banking fraud, notify your bank’s helpline immediately.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section id="steps" class="py-16 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold">What to Do Now</h2>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <div class="bg-white border p-6 rounded-2xl shadow">
+            <h3 class="font-semibold text-lg">1) Secure Accounts</h3>
+            <p class="mt-2 text-slate-700">Change passwords, enable 2FA, and review recent logins for suspicious activity.</p>
+          </div>
+          <div class="bg-white border p-6 rounded-2xl shadow">
+            <h3 class="font-semibold text-lg">2) Inform Your Bank</h3>
+            <p class="mt-2 text-slate-700">Freeze or limit accounts/cards and dispute unauthorized transactions promptly.</p>
+          </div>
+          <div class="bg-white border p-6 rounded-2xl shadow">
+            <h3 class="font-semibold text-lg">3) Report & Preserve Evidence</h3>
+            <p class="mt-2 text-slate-700">File an official complaint, save chats, emails, and transaction IDs for investigators.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold">Trusted Resources</h2>
+        <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <article class="bg-slate-50 border rounded-2xl p-5 shadow">
+            <h3 class="font-semibold">Report Cyber Crime (India)</h3>
+            <p class="text-sm text-slate-700 mt-2">National portal to report online financial fraud, cyberstalking, identity theft, and more.</p>
+            <a href="https://www.cybercrime.gov.in/" class="inline-flex mt-3 text-brand-700 underline">cybercrime.gov.in</a>
+          </article>
+          <article class="bg-slate-50 border rounded-2xl p-5 shadow">
+            <h3 class="font-semibold">CERT-In Advisories</h3>
+            <p class="text-sm text-slate-700 mt-2">Latest alerts and best practices issued by India’s Computer Emergency Response Team.</p>
+            <a href="https://www.cert-in.org.in/" class="inline-flex mt-3 text-brand-700 underline">cert-in.org.in</a>
+          </article>
+          <article class="bg-slate-50 border rounded-2xl p-5 shadow">
+            <h3 class="font-semibold">RBI Customer Awareness</h3>
+            <p class="text-sm text-slate-700 mt-2">Guidelines to protect yourself from banking and digital payment frauds.</p>
+            <a href="https://www.rbi.org.in/" class="inline-flex mt-3 text-brand-700 underline">rbi.org.in</a>
+          </article>
+          <article class="bg-slate-50 border rounded-2xl p-5 shadow">
+            <h3 class="font-semibold">Two‑Factor Authentication</h3>
+            <p class="text-sm text-slate-700 mt-2">Enable 2FA on email, banking, and social media to reduce risk.</p>
+            <a href="https://2fa.directory/" class="inline-flex mt-3 text-brand-700 underline">2fa.directory</a>
+          </article>
+          <article class="bg-slate-50 border rounded-2xl p-5 shadow">
+            <h3 class="font-semibold">Password Safety</h3>
+            <p class="text-sm text-slate-700 mt-2">Use strong, unique passwords stored in a reputable password manager.</p>
+            <a href="https://haveibeenpwned.com/Passwords" class="inline-flex mt-3 text-brand-700 underline">Check Passwords</a>
+          </article>
+          <article class="bg-slate-50 border rounded-2xl p-5 shadow">
+            <h3 class="font-semibold">Phishing Simulator</h3>
+            <p class="text-sm text-slate-700 mt-2">Learn to spot suspicious emails and links through hands‑on examples.</p>
+            <a href="#" class="inline-flex mt-3 text-brand-700 underline">Coming soon</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faqs" class="py-16 bg-slate-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold">Frequently Asked Questions</h2>
+        <div class="mt-6 divide-y border rounded-2xl bg-white">
+          <details class="group p-5" open>
+            <summary class="flex cursor-pointer items-center justify-between">
+              <span class="font-medium">Is this an official government website?</span>
+              <span class="ml-2 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-3 text-slate-700">No. CyberFraudHelp provides guidance and education. For official complaints, use government portals or local police.</p>
+          </details>
+          <details class="group p-5">
+            <summary class="flex cursor-pointer items-center justify-between">
+              <span class="font-medium">Will you ask for OTPs or passwords?</span>
+              <span class="ml-2 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-3 text-slate-700">Never. Do not share OTPs, PINs, passwords, or full card numbers with anyone.</p>
+          </details>
+          <details class="group p-5">
+            <summary class="flex cursor-pointer items-center justify-between">
+              <span class="font-medium">How quickly should I act?</span>
+              <span class="ml-2 transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <p class="mt-3 text-slate-700">Immediately. Contact your bank if money is involved and file an official report as soon as possible.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-white border-t">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold">Contact Us</h2>
+        <p class="mt-2 text-slate-600">For general queries or partnership opportunities.</p>
+        <form id="contactForm" class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6" novalidate>
+          <div class="grid gap-2">
+            <label for="cname" class="font-medium">Full Name</label>
+            <input id="cname" type="text" class="border rounded-xl px-4 py-3" placeholder="Your name" required>
+            <p class="text-sm text-red-600 hidden" data-error="cname">Name is required.</p>
+          </div>
+          <div class="grid gap-2">
+            <label for="cemail" class="font-medium">Email</label>
+            <input id="cemail" type="email" class="border rounded-xl px-4 py-3" placeholder="you@example.com" required>
+            <p class="text-sm text-red-600 hidden" data-error="cemail">Valid email required.</p>
+          </div>
+          <div class="md:col-span-2 grid gap-2">
+            <label for="cmsg" class="font-medium">Message</label>
+            <textarea id="cmsg" rows="5" class="border rounded-xl px-4 py-3" placeholder="How can we help?" required></textarea>
+            <p class="text-sm text-red-600 hidden" data-error="cmsg">Message is required.</p>
+          </div>
+          <div class="md:col-span-2 flex gap-3">
+            <button type="submit" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-3 rounded-xl shadow">Send Message</button>
+            <a href="mailto:help@cyberfarudhelp.com" class="bg-white border hover:bg-slate-50 px-5 py-3 rounded-xl">Email us</a>
+          </div>
+          <p id="contactMsg" class="md:col-span-2 text-sm"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-2 font-semibold text-white">
+          <span class="text-2xl">🛡️</span>
+          <span>CyberFraudHelp</span>
+        </div>
+        <p class="mt-3 text-sm text-slate-400">Support & awareness platform to help victims of online fraud with reporting, recovery, and safety.</p>
+      </div>
+      <nav class="grid gap-2" aria-label="Footer">
+        <a href="#report" class="hover:text-white">Report</a>
+        <a href="#resources" class="hover:text-white">Resources</a>
+        <a href="#faqs" class="hover:text-white">FAQs</a>
+      </nav>
+      <div class="grid gap-2">
+        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <a href="#" class="hover:text-white">Terms of Use</a>
+        <a href="mailto:help@cyberfarudhelp.com" class="hover:text-white">help@cyberfarudhelp.com</a>
+      </div>
+      <div class="grid gap-2">
+        <p class="text-sm">© <span id="yr"></span> CyberFraudHelp. All rights reserved.</p>
+        <p class="text-xs text-slate-400">This website is for guidance only and does not provide legal advice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(!open));
+    });
+
+    // Year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+    // Simple form validation helpers
+    function showErr(id, ok) {
+      const p = document.querySelector(`[data-error="${id}"]`);
+      if (!p) return;
+      p.classList.toggle('hidden', ok);
+    }
+
+    function validEmail(v) { return /.+@.+\..+/.test(v); }
+
+    // Report form logic (save draft to localStorage)
+    const reportForm = document.getElementById('reportForm');
+    const formMsg = document.getElementById('formMsg');
+    const saveDraftBtn = document.getElementById('saveDraft');
+
+    const DRAFT_KEY = 'cfh_report_draft_v1';
+    // Load draft
+    try {
+      const draft = JSON.parse(localStorage.getItem(DRAFT_KEY) || '{}');
+      for (const [k,v] of Object.entries(draft)) {
+        if (reportForm[k]) reportForm[k].value = v;
+      }
+    } catch {}
+
+    saveDraftBtn?.addEventListener('click', () => {
+      const data = Object.fromEntries(new FormData(reportForm).entries());
+      localStorage.setItem(DRAFT_KEY, JSON.stringify(data));
+      formMsg.textContent = 'Draft saved locally on this device.';
+      formMsg.className = 'md:col-span-2 text-sm text-green-700';
+    });
+
+    reportForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const fd = new FormData(reportForm);
+      const name = fd.get('name')?.toString().trim();
+      const email = fd.get('email')?.toString().trim();
+      const category = fd.get('category')?.toString();
+      const details = fd.get('details')?.toString().trim();
+      const consent = document.getElementById('consent').checked;
+
+      const okName = !!name; showErr('name', okName);
+      const okEmail = validEmail(email || ''); showErr('email', okEmail);
+      const okCat = !!category; showErr('category', okCat);
+      const okDet = !!details; showErr('details', okDet);
+      if (!consent) alert('Please agree to the consent notice.');
+
+      if (okName && okEmail && okCat && okDet && consent) {
+        // In production, POST this to your backend or a form endpoint (e.g., Formspree/Zapier)
+        const payload = Object.fromEntries(fd.entries());
+        console.log('Report payload', payload);
+        formMsg.textContent = 'Thank you. Your preliminary report has been recorded locally. We\'ll email you next steps if you provided contact details.';
+        formMsg.className = 'md:col-span-2 text-sm text-green-700';
+        reportForm.reset();
+        localStorage.removeItem(DRAFT_KEY);
+      } else {
+        formMsg.textContent = 'Please correct the highlighted fields.';
+        formMsg.className = 'md:col-span-2 text-sm text-red-700';
+      }
+    });
+
+    // Contact form validation (demo only)
+    const contactForm = document.getElementById('contactForm');
+    const contactMsg = document.getElementById('contactMsg');
+    contactForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('cname').value.trim();
+      const email = document.getElementById('cemail').value.trim();
+      const msg = document.getElementById('cmsg').value.trim();
+      showErr('cname', !!name);
+      showErr('cemail', validEmail(email));
+      showErr('cmsg', !!msg);
+      if (name && validEmail(email) && msg) {
+        contactMsg.textContent = 'Thanks! We\'ll get back to you soon.';
+        contactMsg.className = 'md:col-span-2 text-sm text-green-700';
+        contactForm.reset();
+      } else {
+        contactMsg.textContent = 'Please fill the required fields.';
+        contactMsg.className = 'md:col-span-2 text-sm text-red-700';
+      }
+    });
+  </script>
+</body>
+</html>
